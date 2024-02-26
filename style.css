@@ -1,4 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+:root {
+    --animation: 2s;
+    --type: ease-in;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+
+#headerTitle>* {
+
+    font-family: "Anta", sans-serif;
+    font-size: 44px;
+}
+
+
+#A {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 1s;
+}
+
+#C {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 2s;
+
+
+}
+
+#E {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 3s;
+
+}
+
+#N {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 4s;
+
+
+}
+
+#T {
+
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 5s;
+
+
+}
+
+#U {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 6s;
+
+
+}
+
+#AA {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 7s;
+
+
+}
+
+#CC {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 8s;
+
+
+}
+
+#AAA {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 9s;
+
+}
+
+#O {
+    animation: var(--type) var(--animation) title infinite;
+    animation-delay: 10s;
+
+
+}
+
+@keyframes title {
+
+    0% {
+        font-size: 44px;
+        color: white;
+    }
+
+    50% {
+        font-size: 55px;
+        color: black;
+    }
+
+    100% {
+        font-size: 44px;
+        color: white;
+
+    }
+
+
+}
+
+#diva {
+    padding-top: 4rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#divaa {
+    padding-top: 4rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 100;
+}
+
+
+
+#sqr1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px ;
+    border: 1px black;
+
+}
+
+#sqr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px ;
+    border: 1px black;
+
+}
+
+#sqr3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px;
+    border: 1px black;
+
+}
+
+#sqr4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 0px 0px 25px ;
+    border: 1px black;
+
+}
+
+#sqr5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 0px 0px 25px ;
+    border: 1px black;
+
+}
+
+#sqr6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 0px 0px 25px ;
+    border: 1px black;
+
+}
+
+#basica {
+    font-size: 30px;
+
+}
+
+#basica1 {
+    font-size: 30px;
+}
+
+#clinica1 {
+    font-size: 30px;
+}
+
+#clinica {
+    font-size: 25px;
+
+}
+
+#canada {
+    font-size: 30px;
+}
+
+#candelaria {
+    font-size: 25px;
 }
