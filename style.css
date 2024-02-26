@@ -2,7 +2,19 @@
 
 :root {
     --animation: 2s;
-    --type: ease-in;
+    --type: ease-in-out;
+    --type2: infinite;
+    --a: 2s;
+    --b: 2.1s;
+    --c: 2.2s;
+    --d: 2.3s;
+    --e: 2.4s;
+    --f: 2.5s;
+    --g: 2.6s;
+    --h: 2.7s;
+    --i: 2.8s;
+    --j: 2.9s;
+
 }
 
 * {
@@ -19,68 +31,68 @@
 
 
 #A {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 1s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--a);
 }
 
 #C {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 2s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--b);
 
 
 }
 
 #E {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 3s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--c);
 
 }
 
 #N {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 4s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--d);
 
 
 }
 
 #T {
 
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 5s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--e);
 
 
 }
 
 #U {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 6s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--f);
 
 
 }
 
 #AA {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 7s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--g);
 
 
 }
 
 #CC {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 8s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--h);
 
 
 }
 
 #AAA {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 9s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--i);
 
 }
 
 #O {
-    animation: var(--type) var(--animation) title infinite;
-    animation-delay: 10s;
+    animation: var(--type) var(--animation) title var(--type2);
+    animation-delay: var(--j);
 
 
 }
@@ -99,7 +111,7 @@
 
     100% {
         font-size: 44px;
-        color: white;
+        color: rgb(0, 0, 0);
 
     }
 
@@ -147,7 +159,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 0px 25px 25px 0px;
-    border: 2px black;
+    border: 2pxblack;
 
 }
 
