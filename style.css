@@ -140,7 +140,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px 25px 25px 0px ;
+    border-radius: 0px 25px 25px 0px;
     border: 1px black;
 
 }
@@ -149,7 +149,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px 25px 25px 0px ;
+    border-radius: 0px 25px 25px 0px;
     border: 1px black;
 
 }
@@ -167,7 +167,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px 0px 0px 25px ;
+    border-radius: 25px 0px 0px 25px;
     border: 1px black;
 
 }
@@ -176,7 +176,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px 0px 0px 25px ;
+    border-radius: 25px 0px 0px 25px;
     border: 1px black;
 
 }
@@ -185,39 +185,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px 0px 0px 25px ;
+    border-radius: 25px 0px 0px 25px;
     border: 1px black;
 
 }
 
-#basica {
-    font-size: 30px;
+#text1,
+#text2,
+#text3,
+#text4,
+#text5,
+#text6 {
+    font-size: 27px;
 
 }
 
-#basica1 {
-    font-size: 30px;
-}
 
-#clinica1 {
-    font-size: 30px;
-}
-
-#clinica {
-    font-size: 25px;
+.config {
+    position: absolute;
+    right: 90px;
+    padding-right: 10px;
 
 }
 
-#canada {
-    font-size: 30px;
-}
-
-#candelaria {
-    font-size: 25px;
-}
-
-#label1{
-    
-
+.navC {
+    text-align: center;
+    border-radius: 5px;
 
 }
+
+#configBtt,
+#updateBtt {
+
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#configBtt:hover,
+#updateBtt:hover {
+
+    background-color: black;
+    color: white;
+    border-color: white;
+
+   
+}
+
